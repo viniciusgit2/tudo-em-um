@@ -1,8 +1,8 @@
-import { Pessoa } from "../../components/Pessoa";
+import * as Pessoa from "../../../../components/Pessoa";//loop
 export default function Ex() {
   return (
     <div>
-      <Pessoa nome="joao" idade={0}></Pessoa>
+      <Pessoa.Pessoa nome="joao" idade={0}></Pessoa.Pessoa>
     </div>
   );
 }

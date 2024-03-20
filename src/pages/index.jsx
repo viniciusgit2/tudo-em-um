@@ -11,6 +11,7 @@ import Subdivisao from '../pages/tabuleiro/componentes/Subdivisao'
 import produtos from '../pages/api/produtos'
 import dinamico1 from "./dinamico1";
 import Dinamico2 from "./Dinamico2";
+import Ex from '../pages/api/ts/Ex'
 export default function Home() {
   return (
     <div>
@@ -26,6 +27,7 @@ export default function Home() {
         <Link href='estatico4'>,Estatico4</Link>
         <Link href='dinamico1'>,dinamico1</Link>
         <Link href='Dinamico2'>,Dinamico2</Link>
+        <Link href='/api/ts/Ex'>,exemplo</Link>
       <Porta />   
     
 

@@ -7,5 +7,18 @@ constructor(id:number,enunciado:string,respotas:any[],acertou:boolean[])
 this.#id=id
 this.enunciado#=enunciado
 this.respotas#=respotas
-this.acertou#=acetou
+this.acertou#=acertou
 }
+get id(){
+    return this.#id
+}
+get enunciado(){
+    return this.#enunciado
+}
+}
+get respotas(){
+    return this.#respotas
+}
+
+
+

@@ -17,14 +17,253 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  
+    padding: 0;
+    margin: 0;
+    font-family:
+      -apple-system,
+      BlinkMacSystemFont,
+      Segoe UI,
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      Fira Sans,
+      Droid Sans,
+      Helvetica Neue,
+      sans-serif;
+  
+    color: crimson;
+     
+        padding: 0;
+        margin: 0;
+        font-family:
+          -apple-system,
+          BlinkMacSystemFont,
+          Segoe UI,
+          Roboto,
+          Oxygen,
+          Ubuntu,
+          Cantarell,
+          Fira Sans,
+          Droid Sans,
+          Helvetica Neue,
+          sans-serif;
+      
+        color: crimson;
+        background:  black;
+  }
+  .verde {
+    color: greenyellow;
+  }
+  
+  .vermelha {
+    color: red;
+  }
+  .Mega label {
+    margin-right: 10px;
+  }
+  
+  .Mega input {
+    font-size: 1.4rem;
+    width: 50px;
+  }
+  .azul {
+    color: #0070f3;
+  }
+  .branca {
+    color: whitesmoke;
+    background-color: whitesmoke;
+    height: 950px;
+    width: 100px;
+    padding: 2%;
+  }
+  .btn {
+    border-radius: 25px;
+    margin: 10px;
+    padding: 15px 35px;
+    border: none;
+    outline: none;
+    background-color: #0092c3;
+    font-size: 3rem;
+    color: #fff;
+  }
+  .Subdivisao {
+    color: gold;
+    background-color: gold;
+    height: 950px;
+    width: 100px;
+    padding: 2%;
+  }
+  
+  .porta2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    background-color: green;
+     width: var(--area-porta-largura);
+    height: var(--area-porta-altura);
+  padding: 15px;
+  }
+  .estrutura{
+  display: flex;
+  flex-grow: 1;
+  border-bottom: 5px solid snow;
+  border-right: 5px solid snow;
+  border-top: 5px solid snow;
+  border-left: 5px solid snow;
+  
+  
+  background-color: snow;
+  }
+  .area{
+    display: flex;
+    width: var(--area-porta-largura);
+    height: var(--area-porta-altura);
+    flex-direction:column ;
+    margin: 5%;
+    position: relative;
+  }
+  .selecionada.numero{
+    color: yellow;
+  }
+  .selecionada.maçaneta{
+    color: yellow;
+  }
+  
+  .area{
+    display: flex;
+    width: var(--area-porta-largura);
+    height: var(--area-porta-altura);
+    flex-direction:column ;
+    margin: 5%;
+    position: relative;
+  }
+  .selecionada{
+    border-bottom: 5px solid yellow;
+    border-right: 5px solid yellow;
+    border-top: 5px solid yellow;
+    border-left: 5px solid yellow;
+  }
+  .selecionada.numero{
+    color: yellow;
+  }
+  .selecionada.maçaneta{
+    color: yellow;
+  }
+  .porta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #0070f3;
+     width: var(--area-porta-largura);
+    height: var(--area-porta-altura);
+  padding: 15px;
+  }
+  .numero{
+    font-size: 3rem;
+  }
+  .presente {
+    display: flex;
+    position: relative;
+  flex-direction: column;
+  align-items: center;
+  }
+  .corpo{
+    width :90px;
+    height: 60px;
+    color: crimson;
+    background-color: gold;  
+  }
+  .laco1{
+  position: absolute;
+  width: 15px;
+  height: 85px;
+  background-color: crimson;
+  color: crimson;
+  }
+  .laco2{
+    position: absolute;
+    width: 80px;
+    background-color: crimson;
+    color: crimson;
+   
+    }
+  .tampa{
+    width: 90px;
+    height: 60x;
+    background-color: black;
+  }
+  .maçaneta{
+    position: absolute;
+   background-color: chocolate; 
+   color: chocolate;
+   width: 20px;
+   height:20px;
+  border-radius: 10px;
+  align-self: flex-start;
+  top: 140px;
+  }
+  
+  .corpo{
+    width :90px;
+    height: 60px;
+    color: crimson;
+    background-color: gold;  
+  }
+  .laco1{
+  position: absolute;
+  width: 15px;
+  height: 85px;
+  background-color: crimson;
+  color: crimson;
+  }
+  .laco2{
+    position: absolute;
+    width: 80px;
+    background-color: crimson;
+    color: crimson;
+   
+    }
+  .tampa{
+    width: 90px;
+    height: 60x;
+    background-color: black;
+  }
+  .numero{
+    font-size: 3rem;
+  }
+  .linha{
+    display: flex;
+  
+  }
+  
+  
+  
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  :root{
+    --area-porta-altura:310px;
+    --area-porta-largura:200px;
+  
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    html {
+      color-scheme: dark;
+    }
+  }
+ 
+
 
 @layer utilities {
   .text-balance {

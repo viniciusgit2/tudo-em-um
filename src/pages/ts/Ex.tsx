@@ -1,4 +1,4 @@
-import { Pessoa } from "../../components/Pessoa";
+import {Pessoa} from "../../components/Pessoa";
 export default function Ex() {
   return (
     <div>

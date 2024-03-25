@@ -1,4 +1,4 @@
-export default class respota{
+export default class Respota{
      #valor: String
      #certa: boolean
     #revelada: boolean

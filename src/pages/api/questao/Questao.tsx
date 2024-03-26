@@ -1,17 +1,17 @@
 import Respota from "./Respota"
-export default class questão{
-    #id: String
-    #perguntas: boolean
+export default class Questao{
+    #id:number
+    #perguntas:string
+    #acertou: boolean
     #Respota: Respota[]
-
-   #acertou: boolean
-constructor(id:string,perguntas:boolean,Respota:Respota[],acertou:boolean){
+  
+constructor(id:number,perguntas:string   ,Respota:Respota[],acertou:boolean){
 this.#id=id
 this.#perguntas=perguntas
 this.#acertou=acertou
 this.#Respota=Respota
 }
-get valor(){
+get id(){
 return this.#id
 
 }

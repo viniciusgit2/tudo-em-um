@@ -1,9 +1,9 @@
 export default class Respota{
  #valor:String
  #certa:Boolean
- #respotas:any[]
+ #respotas:Respota[]
  #revelada:Boolean
- constructor(valor:String,respotas:any[] ,certa:Boolean,revelada:Boolean){
+ constructor(valor:String,respotas:Respota[] ,certa:Boolean,revelada:Boolean){
 this.#valor=valor
 this.#certa=certa
 this.#revelada=revelada

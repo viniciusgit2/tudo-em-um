@@ -1,19 +1,17 @@
 import Respota from "./Respota"
 export default class Questao{
-  #id:string
-   #valor:string
+  #id:number
     #perguntas:string
     #acertou: boolean
-  #Respotas:any[]
-constructor(valor:string,id:string,perguntas:string,Respota:any ,acertou:boolean){
-this.#valor=valor
+  #Respotas:Respota[]
+  //respondidas:bolean
+constructor(id:number,perguntas:string,Respota:any ,acertou:boolean,Respotas:Respota){
 this.#perguntas=perguntas
 this.#acertou=acertou
 this.#id=id
 this.#Respotas=Respota
 }
-get valor(){
-   return this.#valor}
+
 
 
 get id(){
@@ -27,8 +25,8 @@ get acertou(){
    return this.#acertou
 }
 get Respotas(){
-   for(let respotas of this.#Respotas){
-      if(respotas.revelada) return true
+   for(let Respotas of this.#Respotas){
+      if(Respotas.revelada) return true
    }
    return false
 }

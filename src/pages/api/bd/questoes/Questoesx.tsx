@@ -3,14 +3,22 @@ import Respotamodel from "../../../../../model/Respota";
 
 
 const Questoesx:Questaomodel[]=[
-new Questaomodel(306,'qual bicho transmite a dengue? ',[
-new Respotamodel('mosquito',true),
-new Respotamodel('abelha',false),
-new Respotamodel('Girafa',false),
-new Respotamodel('fosca',false)
-
+  new Questaomodel(306,'qual bicho transmite a dengue? ',[
+Respotamodel.certa('mosquito'),
+Respotamodel.errada('abelha'),
+Respotamodel.errada('baleia'),
+Respotamodel.errada('gorila'),
 
 ]
 )
+,
+new Questaomodel(202,'o formato de uma bola de futebol é ? ',[
+    Respotamodel.certa('redonda'),
+    Respotamodel.errada('triangular'),
+    Respotamodel.errada('hexagonal'),
+    Respotamodel.errada('quadrado'),
 ]
+)
+]
+
 export default  Questoesx

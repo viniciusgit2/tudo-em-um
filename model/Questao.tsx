@@ -30,5 +30,14 @@ get respondidas(){
     if (respotas.revelada)return true
     }
     return false
+
+}
+paraobjeto(){
+    return{
+        id:this.#id,
+        perguntas:this.#perguntas,
+        respotas:this.#respotas.map(Respotamodel =>Respotamodel.paraobjeto()),
+        acertou:this.#acertou
+    }
 }
 }

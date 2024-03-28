@@ -28,8 +28,7 @@ export default function Home() {
         <Link href='estatico4'>,Estatico4</Link>
         <Link href='dinamico1'>,dinamico1</Link>
         <Link href='Dinamico2'>,Dinamico2</Link>
-       <Link href='Questao'>,Questao</Link>
-       <Link href='api/bd/questoes/Questoesx'>,quest</Link>
+     
       <Porta />   
     
 

@@ -12,6 +12,7 @@ import produtos from '../pages/api/produtos'
 import dinamico1 from "./dinamico1";
 import Dinamico2 from "./Dinamico2";
 import  Questao from '../pages/Questao'
+import Questoesx from '../pages/api/bd/questoes/Questoesx'
 export default function Home() {
   return (
     <div>
@@ -28,6 +29,7 @@ export default function Home() {
         <Link href='dinamico1'>,dinamico1</Link>
         <Link href='Dinamico2'>,Dinamico2</Link>
        <Link href='Questao'>,Questao</Link>
+       <Link href='api/bd/questoes/Questoesx'>,quest</Link>
       <Porta />   
     
 

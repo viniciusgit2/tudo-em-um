@@ -18,6 +18,14 @@ new Questaomodel(202,'o formato de uma bola de futebol é ? ',[
     Respotamodel.errada('hexagonal'),
     Respotamodel.errada('quadrado'),
 ]
+),
+new Questaomodel(101,'coletivo de caes ? ',[
+Respotamodel.errada('manada'),
+Respotamodel.certa('matilha'),
+Respotamodel.errada('fauna'),
+Respotamodel.errada('cuvilização'),
+
+]
 )
 ]
 

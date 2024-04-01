@@ -101,7 +101,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/pages/api/hello.js", "src/pages/api/bd/questoes/Questoes.ts", "src/pages/api/questao2/[id].jsx"  ],
+, "src/pages/api/hello.js", "src/pages/api/bd/questoes/Questoes.ts", "src/pages/api/questao2/[id].jsx", "function/array.tsx"  ],
   "exclude": [
     "node_modules"
   ]
